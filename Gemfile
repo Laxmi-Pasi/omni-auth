@@ -56,3 +56,12 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "devise", "~> 4.8"
+
+gem "omniauth"
+gem "omniauth-facebook"
+gem "omniauth-github"
+gem "omniauth-google-oauth2"
+gem "activerecord-session_store"
+gem "omniauth-rails_csrf_protection"
+
+gem "pry", "~> 0.14.1"
