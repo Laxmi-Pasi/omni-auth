@@ -1,0 +1,5 @@
+<center>
+   <h1>home page inside user</h1> 
+   <%=session.to_hash%>
+    <%= button_to "logout", destroy_user_session_path, method: :delete %>
+</center>
